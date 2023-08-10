@@ -18,7 +18,7 @@
     height: 400px;
   }
   .details1 img{
-    width: 925px;
+    width: 960px;
     height: 300px;
   }
   .details2{
@@ -52,6 +52,20 @@ footer a:hover{
 footer h1{
     color: white;
     padding-top: 50px;
+}
+.image-container {
+  position: relative;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
 
@@ -103,28 +117,36 @@ footer h1{
   
   </div>
   <div class="container row details1">
-    <div class="col-sm-6">
+    <div class="col-lg-6">
          <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam recusandae sapiente et consectetur pariatur ratione quibusdam mollitia culpa ab suscipit, dolor quisquam? Et modi amet nemo velit. Sed, dolor animi.
          </p>
     </div>
-    <div class="col-sm-6">
-        <img src="C:\Users\pc\Projects\Internship\showup_frontend\static\img\carousel3.jpg" alt="Responsive Image">
+    <div class="col-lg-6">
+      <img src="C:\Users\pc\Projects\Internship\showup_frontend\static\img\photo-1593697821252-0c9137d9fc45.avif" class="img-fluid" width="100%" alt="Responsive Image">
     </div>
   </div>
-
-  <div class=" container row details2">
-    <div class="col-sm-4"><img src="C:\Users\pc\Projects\Internship\showup_frontend\static\img\istockphoto-1475484197-170667a.webp" class="img-fluid" alt="Responsive Image">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam recusandae sapiente et consectetur pariatur ratione quibusdam mollitia culpa ab suscipit, dolor quisquam? Et modi amet nemo velit. Sed, dolor animi.
-       </p>
-    </div>
-    <div class="col-sm-4"> <img src="C:\Users\pc\Projects\Internship\showup_frontend\static\img\carousel6.webp" class="img-fluid" alt="Responsive Image"><p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam recusandae sapiente et consectetur pariatur ratione quibusdam mollitia culpa ab suscipit, dolor quisquam? Et modi amet nemo velit. Sed, dolor animi.
-     </p></div>
-    <div class="col-sm-4"> <img src="C:\Users\pc\Projects\Internship\showup_frontend\static\img\photo-1593697821252-0c9137d9fc45.avif" class="img-fluid" alt="Responsive Image"><p>
+  <div class="container">
+    <div class="row details2">
+      <div class="col-md-4">
+        <img src="C:\Users\pc\Projects\Internship\showup_frontend\static\img\carousel1.jpg" class="img-fluid" alt="Responsive Image">
+        <h6>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.<p> Ullam recusandae sapiente et consectetu.</p>
+        </h6>
+      </div>
+      <div class="col-lg-4">
+        <img src="C:\Users\pc\Projects\Internship\showup_frontend\static\img\carousel2.jpg" class="img-fluid" alt="Responsive Image">
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam recusandae sapiente et consectetur pariatur ratione quibusdam mollitia culpa ab suscipit, dolor quisquam? Et modi amet nemo velit. Sed, dolor animi.
-         </p></div>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <img src="C:\Users\pc\Projects\Internship\showup_frontend\static\img\carousel3.jpg" class="img-fluid" alt="Responsive Image">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam recusandae sapiente et consectetur pariatur ratione quibusdam mollitia culpa ab suscipit, dolor quisquam? Et modi amet nemo velit. Sed, dolor animi.
+        </p>
+      </div>
+    </div>
   </div>
   <!-- button -->
   <div class="container">
