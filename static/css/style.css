@@ -1,0 +1,80 @@
+.row img{
+    width: 100%;
+    height: 200px;
+ }
+
+ .profile container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+ }
+ 
+ .profile-picture {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  transform: translatex(-250%);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+ .profile-picture img {
+   width: 100%;
+   height: 100px;
+   object-fit: cover;
+ }
+
+ .user-name {
+  font-size: 24px;
+  margin-top: 50px;
+ }
+
+ .black-column email-icon {
+ position: fixed;
+ bottom: 10px;
+ left: 50px;
+ display: flex;
+ align-items: center;
+}
+
+.email-address {
+ background-color: #ffffff;
+ position: fixed;
+ text-align: center;
+ display: flex;
+ }
+
+.black-column img {
+ width: 30px;
+ height: auto;
+ margin-right: 10px;
+ margin-top: 10px;
+}
+ 
+#color{
+   background-color: #d7c2c2;
+   height: 100px;
+ }
+ .row{
+   width: 450px;
+   margin-left: 300px;
+ }
+ 
+ .btn-green {
+ background-color: #28a752;
+ color:#ffffff;
+ border-radius: 20px;
+ padding: 10px 20px;
+ margin-top: 120px;
+}
+
+.black-column {
+ background-color: #000000;
+ text-align: center;
+ height: 200px;
+}
