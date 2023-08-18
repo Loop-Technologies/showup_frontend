@@ -36,7 +36,8 @@ header {
 
 .banner-text {
 	position: absolute;
-	top: 30%;
+	/* top: 30%; */
+	margin-top: 180px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
@@ -109,34 +110,6 @@ header {
 		opacity: 1;
 	}
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.navbar-dark {
-		background-color: #333;
-	}
-	.navbar-dark .navbar-nav .nav-link {
-		background: #333;
-		text-align: center;
-	}
-	.text-area {
-		font-size: 50px;
-	}
-}
-@media only screen and (max-width: 767px) {
-	.banner-text p {
-		display: none;
-	}
-	.navbar-dark {
-		background-color: #333;
-	}
-	.navbar-dark .navbar-nav .nav-link {
-		background: #333;
-		text-align: center;
-	}
-	.text-area {
-		font-size: 20px;
-	}
-}
-
 /* listing */
 .listing{
 	margin: 150px 0;
@@ -174,8 +147,7 @@ header {
 .card a:hover{
 	color: black;
 }
-	
-  /* newsletter */
+	/* newsletter */
 .bg-grey {
 	background-color: #e2dede;
 	height: 200px;
@@ -185,22 +157,17 @@ header {
 	padding-bottom: 30px;
 }
 .form-inline{
-	margin-top: 85px;
+	margin-top: 75px;
 }
 .form-inline .btn{
     background-color: #b5d887;
 	color: #000;
 }
-
-
 .form-inline .btn:hover{
 	background-color: black;
 	color: white;
 }
-
-
-
-  /* footer */
+ /* footer */
   footer ul{
      list-style: none;
   }
@@ -220,3 +187,27 @@ header {
 	color: white;
 	padding-top: 30px;
   }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-dark {
+		background-color: #333;
+	}
+	.navbar-dark .navbar-nav .nav-link {
+		background: #333;
+		text-align: center;
+	}
+	.text-area {
+		font-size: 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-dark {
+		background-color: #333;
+	}
+	.navbar-dark .navbar-nav .nav-link {
+		background: #333;
+		text-align: center;
+	}
+	.text-area {
+		font-size: 20px;
+	}
+}
