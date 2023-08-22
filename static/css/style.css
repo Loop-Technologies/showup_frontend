@@ -56,8 +56,8 @@
 }
 
 .register h1{
-    font-size: 4rem;
-    font-weight: 700;
+    font-size: 3rem;
+    font-weight: 700px;
     font-family: 'Pacifico', cursive;
 }
 
@@ -108,15 +108,6 @@
     border: 1px solid;
     color: rgb(255, 255, 255);
 }
-#inp{
-    height: 50px;
-    width: 100%;
-    border: ;
- padding-left: 10px;
- width: 250px;
- margin-left: -20px;
-}
-
 
 .section{
     height: 300px;
@@ -127,6 +118,43 @@ form{
     padding-right: 10px;
 }
 
+#fullname, #email, #password2, #phone, #password {
+    height: 50px;
+ padding-left: 10px;
+}
+   
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: ;
+    padding: 10px;
+
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input{
+    border-color: #09c372;
+}
+
+.input-control.error input{
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
 #int4{
     height: 50px;
  padding-left: 10px;
@@ -135,8 +163,34 @@ form{
 #int5{
     height: 50px;
  padding-left: 10px;
+ 
+
 }
 
+
+  .btn3{
+border: none;
+outline: none;
+height: 50px;
+width: 40%;
+background-color: rgb(5, 107, 5);
+color: white;
+border-radius: 30px;
+font-weight: bold;
+
+
+}
+
+.btn3:hover{
+background-color: white;
+border: 1px solid;
+color: black;
+}
+.btn3:active{
+background-color: rgb(5, 107, 5);
+border: 1px solid;
+color: rgb(255, 255, 255);
+}
 
 
 

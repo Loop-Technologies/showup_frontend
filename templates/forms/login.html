@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width" initial-scale="1.0">
 <title>Show up</title>
 <link rel="stylesheet" href="/static/css/bootstrap.min.css">
-<link rel="stylesheet" href="/static/js/bootstrap.min.js">
+<link rel="stylesheet" href="js/bootstrap.min.js">
 <link rel="stylesheet" href="/static/css/style.css">
 <!--for the font-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-
+   <script defer src="/static/js/login.js"></script>
 <style>
    
 </style>
@@ -36,25 +36,21 @@
                       
                         <div id="pls"><h6>enter your informations</h6></div>
 
-                             <form action="/">
-                                   <!--email-->
-                               <div class="form-row pt-3 py-2"> 
-                                   <div class="offset-1 col-lg-10 ">
-                                <input type="email" id="inp" placeholder="Enter email" required>
-                                   </div>
-                               </div> 
+                             <form id="form" action="/">
+                              <div class="input-control">
+                                <input type="text" class="input-control" id="email" placeholder="Enter email">
+                                    <div class="error"></div>
+                              </div>
+
+                              <div class="input-control" >
+                                <input type="password" class="input-control" id="password" placeholder="Enter password">
+                                    <div class="error"></div>
+                              </div>
                                 
-                                 <!--password-->
-                               <div class="form-row pt-3 py-2"> 
-                                <div class="offset-1 col-lg-10">
-                             <input type="password" id="inp" placeholder="Enter password" required>
-                                </div>
-                            </div> 
- 
                             <!--button-->
                           <div class="form-row py-3"> 
                               <div class="offset-1 col-lg-10">
-                                   <button class="btn2">Login</button>
+                                   <button type="submit" class="btn2">Login</button>
                               </div>
                           </div>
                           
