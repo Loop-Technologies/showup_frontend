@@ -1,6 +1,5 @@
 .jumbotron{
-   height: 100px;
-   
+   height: 100px; 
 }
 .jumbotron a{
   color: #5f5d5d;
@@ -10,21 +9,32 @@
   color: #5f5d5d;
   text-decoration: none;
 }
+.ej{
+  background-color: lightgray;
+  height: 50px; 
+}
+.ej a{
+ color: #5f5d5d;
+ padding-top: 3px;
+ text-decoration: none;
+}
+.ej a:hover{
+ color: #5f5d5d;
+ text-decoration: none;
+}
+
+.details{
+  border: 2px solid grey;
+  padding: 20px auto;
+  text-transform: uppercase;
+}
 .accordion{
   border: 2px solid grey;
-  margin-bottom: 100px;
-  
+  margin-bottom: 100px; 
 }
 .image img{
     width: 50px;
     height: 50px;
-}
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: 0 -16px;
 }
 .col-50 {
   -ms-flex: 50%;
@@ -36,9 +46,9 @@
   padding: 5px 10px 25px 10px;
   border: 1px solid lightgrey;
   border-radius: 3px;
-  margin: 100px auto;
+  margin-bottom: 50px;
 }
-input[type=text] ,input[type=tel],input[type=date]{
+input[type=text] ,input[type=tel],input[type=date],input[type=email],input[type=number]{
   width: 100%;
   margin-bottom: 20px;
   padding: 12px;
@@ -54,27 +64,3 @@ label {
   padding: 7px 0;
   font-size: 24px;
 }
-.btn a{
-  text-decoration: none;
-  color: black;
-  background-color: #b5d887;
-  padding: 12px;
-  margin: 10px auto;
-  margin-left: -11px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 17px;
-}
-.btn a:hover {
-  background-color: black;
-  color: white;
-  text-decoration: none;
-}
-
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
-  @media (max-width: 800px) {
-    .row {
-      flex-direction: column-reverse;
-    }
-  }

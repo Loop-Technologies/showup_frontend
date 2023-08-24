@@ -13,14 +13,20 @@
 </head>
 <body>
     <div class="jumbotron">
-        <a href="../../templates/pages/show_details"><i class="fa fa-arrow-left" style="color:#5f5d5d;"></i>    ORDER CONFIRMATION</a>
-    </div>    
+        <a href="../../templates/pages/show_details"><i class="fa fa-arrow-left"></i>    TICKET</a>
+    </div>
+    <h1 class="text-center mt-5 mb-5">order confirmation</h1>
+    <div class="container mt-5 details">  
+      <p class="mt-3" id="show">show title</p>
+      <p id="ticket">ticket type</p>
+    </div>
+
     <form action="action" class="was-validated">
         <div class="container accordion mt-5" id="accordionExample">
           <h3 class="mb-5 mt-2 text-center">Payment Methods</h3>
-            <div class="form-check">
-                <label class="form-check-label collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                  <input type="radio" class="form-check-input" name="ccard">CREDIT CARD
+            <div class="form-check mt-4">
+                <label class="form-check-label collapsed" for="paymentmethod" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <input type="radio" id="paymentmethod" class="form-check-input" name="ccard">CREDIT CARD
                 </label>
                 <div class="icon-container">
                   <i class="fa fa-cc-visa" style="color:navy;"></i>
@@ -32,35 +38,28 @@
                   <div class="container panel-container">
                     <div class="row">
                       <div class="col-50">
-                        <h3>Billing Address</h3>
-                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="deontay" required>
-                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                        <input type="text" id="email" name="email" placeholder="jdarell@deontay.com" required>
-                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                        <input type="text" id="adr" name="address" placeholder="dirty south buea" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please fill out this field.</div>
-                      </div>
-                      <div class="col-50">
                         <h3>Payment</h3>
-                        <label for="cname">Name on Card</label>
-                        <input type="text" id="cname" name="cardname" placeholder="DEONTAY DARELL" required>
-                        <label for="ccnum">Credit card number</label>
-                        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+                        <label for="name"><i class="fa fa-user"></i>Name</label>
+                        <input type="text" id="name" name="firstname" placeholder="deontay" required>
+                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        <input type="email" id="email" name="email" placeholder="jdarell@deontay.com" required>
+                        <label for="amount"><i class="fa fa-money"></i>Amount</label>
+                        <input type="number" id="amount" name="amount" placeholder="10000 FCFA" required>
+                        <label for="ccnum"><i class="fa fa-paper"></i> Credit card number</label>
+                        <input type="number" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
                         <label for="expmonth">Exp date</label>
                         <input type="date" id="expdate" name="expdate" required>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                       </div>
                     </div>
-                    <button class="btn"><a href="">CONTINUE TO CHECKOUT</a></button>
+                    <button class="btn btn-primary" type="submit">PAY</button>
                   </div>
                 </div>
             </div>
             <div class="form-check ">
-                <label class="form-check-label collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <input type="radio" class="form-check-input" name="mobile">MOBILE MONEY
+                <label class="form-check-label collapsed" for="paymentmethod" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <input type="radio" id="paymentmethod" class="form-check-input" name="mobile">MOBILE MONEY
                 </label>
                 <div class="image mb-3">
                     <img src="../../static/img/mtn.png" alt="">
@@ -70,20 +69,20 @@
                   <div class="container panel-container">
                     <div class="row">
                       <div class="col-50">
-                        <h3>payment</h3>
-                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="DEONTAY DARELL" required>
+                        <h3>Payment</h3>
+                        <label for="name"><i class="fa fa-user"></i>Name</label>
+                        <input type="text" id="name" name="name" placeholder="DEONTAY DARELL" required>
                         <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                        <input type="text" id="email" name="email" placeholder="darell@deontay.com" required>
-                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                        <input type="text" id="adr" name="address" placeholder="dirty south buea" required>
-                        <label for="num"></i> phone number</label>
+                        <input type="email" id="email" name="email" placeholder="darell@deontay.com" required>
+                        <label for="amount"><i class="fa fa-money"></i> Amount</label>
+                        <input type="number" id="amount" name="amount" placeholder="10000 FCFA" required>
+                        <label for="num"><i class="fa fa-phone"></i> phone number</label>
                         <input type="tel" id="num" name="number" placeholder="682828948" required>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                       </div>
                     </div>
-                    <button class="btn"><a href="">CONTINUE TO CHECKOUT</a></button>
+                    <button class="btn btn-primary">PAY</button>
                   </div>
                 </div>
             </div>
