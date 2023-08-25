@@ -73,12 +73,36 @@ body{
 	font-size: 20px;
 	margin-top: 10%;
 }
-.registration a{
+.register a{
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+.register a:hover{
+	color: black;
+	background-color: #b5d887;
+	text-decoration: none;
+}
+.log{
+	font-size: 15px;
+}
+.log a{
 	color: white;
 }
-.registration a:hover{
+.log span{
+	color: skyblue;
+}
+.log a:hover{
 	color: #b5d887;
 	text-decoration: none;
+}
+.log span:hover{
+	color: #b5d887;
+}
+.login{
+	font-size: 18px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.text-area {
