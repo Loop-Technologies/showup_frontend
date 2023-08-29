@@ -1,3 +1,24 @@
+.navbar-dark {
+	background-color:black !important;
+}
+.navbar-dark .navbar-brand {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.navbar-dark .navbar-brand span {
+	background: #b5d887;
+	color: #000;
+	padding: 5px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #000 !important;
+	background-color: #b5d887;
+}
 .jumbotron{
    height: 100px; 
 }
@@ -9,20 +30,6 @@
   color: #5f5d5d;
   text-decoration: none;
 }
-.ej{
-  background-color: lightgray;
-  height: 50px; 
-}
-.ej a{
- color: #5f5d5d;
- padding-top: 3px;
- text-decoration: none;
-}
-.ej a:hover{
- color: #5f5d5d;
- text-decoration: none;
-}
-
 .details{
   border: 2px solid grey;
   padding: 20px auto;
@@ -63,4 +70,47 @@ label {
   margin-bottom: 20px;
   padding: 7px 0;
   font-size: 24px;
+}
+footer ul{
+  list-style: none;
+}
+footer{
+background-color: black;
+padding-top: 20px;
+}
+footer a{
+color: #818181;
+text-decoration: none;
+}
+footer a:hover{
+color: white;
+text-decoration: none;
+}
+footer h1{
+color: white;
+padding-top: 30px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.navbar-dark {
+ background-color: #333;
+}
+.navbar-dark .navbar-nav .nav-link {
+ background: #333;
+ text-align: center;
+}
+.text-area {
+ font-size: 50px;
+}
+}
+@media only screen and (max-width: 767px) {
+.navbar-dark {
+ background-color: #333;
+}
+.navbar-dark .navbar-nav .nav-link {
+ background: #333;
+ text-align: center;
+}
+.text-area {
+ font-size: 20px;
+}
 }
