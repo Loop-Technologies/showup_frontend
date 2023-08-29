@@ -71,8 +71,8 @@ body {
  color:rgb(252, 238, 238);
  border-radius: 20px;
  padding: 10px 20px ;
- margin-bottom: 400px;
- margin-left: 600px;
+ margin-bottom: 650px;
+ margin-left: 630px;
 }
 
 
@@ -81,12 +81,12 @@ div.transbox form  {
   
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.3;
+  opacity: 0.7;
   margin-left:450px;
   margin-right: 450px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  
   
   
 }
@@ -134,7 +134,7 @@ div.transbox form  {
 
   label {
   color: black;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: -40px;
   
   
