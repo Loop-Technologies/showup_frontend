@@ -36,7 +36,7 @@ body {
 	color: #b5d887;
 }
 .img1{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../../static/img/show1.jpeg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../../static/img/venue2.jpeg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
