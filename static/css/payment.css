@@ -1,0 +1,66 @@
+.jumbotron{
+   height: 100px; 
+}
+.jumbotron a{
+  color: #5f5d5d;
+  text-decoration: none;
+}
+.jumbotron a:hover{
+  color: #5f5d5d;
+  text-decoration: none;
+}
+.ej{
+  background-color: lightgray;
+  height: 50px; 
+}
+.ej a{
+ color: #5f5d5d;
+ padding-top: 3px;
+ text-decoration: none;
+}
+.ej a:hover{
+ color: #5f5d5d;
+ text-decoration: none;
+}
+
+.details{
+  border: 2px solid grey;
+  padding: 20px auto;
+  text-transform: uppercase;
+}
+.accordion{
+  border: 2px solid grey;
+  margin-bottom: 100px; 
+}
+.image img{
+    width: 50px;
+    height: 50px;
+}
+.col-50 {
+  -ms-flex: 50%;
+  flex: 50%;
+  padding: 0 16px;
+}
+.panel-container {
+  background-color: #f2f2f2;
+  padding: 5px 10px 25px 10px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+input[type=text] ,input[type=tel],input[type=date],input[type=email],input[type=number]{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
