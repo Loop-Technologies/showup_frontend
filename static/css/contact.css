@@ -1,5 +1,11 @@
+.nav-item{
+  margin-left: 200px;
+}
+
+/* header/navbar */
 .navbar-dark {
 	background-color:black !important;
+  overflow: hidden;
 }
 .navbar-dark .navbar-brand {
 	color: #fff;
