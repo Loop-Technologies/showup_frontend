@@ -1,0 +1,180 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.8;
+	
+}
+/* header/navbar */
+.navbar-dark {
+	background-color:black !important;
+  overflow: hidden;
+}
+.navbar-dark .navbar-brand {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.navbar-dark .navbar-brand span {
+	background: #b5d887;
+	color: #000;
+	padding: 5px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #000 !important;
+	background-color: #b5d887;
+}
+
+.column img {
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    margin-top: -30px;
+ }
+
+ .row-img button {
+  width: 30px;
+ height: auto;
+ margin-right: 20px;
+ margin-top: 100px;
+  
+ }
+
+ 
+ .profile-picture  {
+   position: absolute;
+   bottom: 60%;
+   left: 55%;
+   transform: translatex(-100%);
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   overflow: hidden;
+   margin-bottom: 50px;
+ }
+
+ .profile-picture img {
+   width: 100%;
+   height: 150px;
+   object-fit: cover;
+ }
+
+ /* .row {
+   width: 450px;
+   margin-left: 300px;
+ } */
+ 
+ .btn-green {
+ background-color: #249754;
+ color:rgb(252, 238, 238);
+ border-radius: 20px;
+ padding: 10px 20px ;
+ margin-bottom: 400px;
+ margin-left: 600px;
+}
+
+
+
+div.transbox form  {
+  
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.3;
+  margin-left:450px;
+  margin-right: 450px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  
+  
+}
+
+
+
+
+
+.black-row {
+  overflow: hidden;
+  background-image: url('../../static/img/bg.jpg');
+  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+ height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.black-row form{
+  text-align: center;
+  
+  
+  
+}
+
+.error {
+        color: rgb(192, 26, 26);
+        }
+
+.fa-arrow-left{
+  position: absolute;
+  margin-top: 70px;
+  color:white;
+  padding-bottom: 50px;
+        }
+
+        .fa-camera{
+          position: absolute;
+          margin-top: 70px;
+          color:white;
+          padding-bottom: 30px;
+          margin-left: 70px;
+                }
+
+  label {
+  color: black;
+  margin-top: 100px;
+  padding: -40px;
+  
+  
+  
+}
+footer ul{
+    list-style: none;
+ }
+ footer{
+  overflow:hidden;
+   background-color: black;
+   padding-top: 20px;
+ }
+ footer a{
+   color: #818181;
+   text-decoration: none;
+ }
+ footer a:hover{
+   color: white;
+   text-decoration: none;
+ }
+ footer h1{
+   color: white;
+   padding-top: 30px;
+ }
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+   .navbar-dark {
+       background-color: #333;
+   }
+   .navbar-dark .navbar-nav .nav-link {
+       background: #333;
+       text-align: center;
+   }
+}
+@media only screen and (max-width: 767px) {
+   .navbar-dark {
+       background-color: #333;
+   }
+   .navbar-dark .navbar-nav .nav-link {
+       background: #333;
+       text-align: center;
+   }
+}
