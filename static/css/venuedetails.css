@@ -60,6 +60,12 @@ body {
  padding-left: 20px;
  
 }
+.lab{
+  color: #24350f;
+}
+.next-container{
+  margin-left: 200px;
+}
 
 footer ul{
     list-style: none;
