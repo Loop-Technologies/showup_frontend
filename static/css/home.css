@@ -32,7 +32,7 @@ header {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
-} 
+}
 .banner-text {
 	position: absolute;
 	/* top: 30%; */
@@ -128,15 +128,10 @@ header {
 	background-color: black;
 	text-transform: capitalize;
 	margin-bottom: 5px;
-
 }
 .card a{
 	text-decoration: none;
 	color: white;
-}
-.card .btn1{
-	margin-left: 2px;
-	
 }
 .card .btn:hover{
     background-color: #b5d887;
